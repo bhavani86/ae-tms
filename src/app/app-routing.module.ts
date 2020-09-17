@@ -4,8 +4,13 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
-  { path: 'mains', component: MainComponent },
-  { path: 'mains/dashboard', component: DashboardComponent },
+  // { path: 'mains', component: MainComponent },
+  // { path: 'mains/dashboard', component: DashboardComponent },
+  {
+    path: 'main',
+    component: MainComponent,
+    loadChildren: () => import('./main/main.module').then(m => m.MainModule)
+  }
 ];
 
 @NgModule({

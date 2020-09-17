@@ -12,7 +12,7 @@ import { ProjectsComponent } from '../projects/projects.component';
     CentersComponent,
     BatchesComponent,
     StudentsComponent,
-    ProjectsComponent,
+    ProjectsComponent
   ],
   imports: [CommonModule],
 })
