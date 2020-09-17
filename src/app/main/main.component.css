@@ -1,0 +1,70 @@
+.headingtitle {
+  color: green;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: Rubik, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.headingtitle:hover {
+  color: rgb(13, 13, 41);
+}
+.navbar {
+  justify-content: space-between;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+}
+.admin {
+  display: flex;
+  align-items: center;
+}
+.header-padding {
+  padding-right: 1rem;
+}
+.Login {
+  color: red;
+  font-size: 17px;
+}
+.main-display {
+  display: block;
+}
+li {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.dash-color-active :hover {
+  background-color: #d2f7ef8a;
+}
+.admi-color :hover {
+  background-color: rgba(236, 211, 68, 0.26);
+}
+.stu-color :hover {
+  background-color: #d2f7ef8a;
+}
+.trai-color :hover {
+  background-color: #de9a65a5;
+}
+.attend-color :hover {
+  background-color: #d597ce62;
+}
+.exam-color :hover {
+  background-color: #dfddc779;
+}
+.aca-color :hover {
+  background-color: #d597ce62;
+}
+.assi-color :hover {
+  background-color: #c9b6e47a;
+}
+.navbar-nav {
+  display: contents;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}

@@ -1,0 +1,56 @@
+.batch-padding {
+  max-width: 86%;
+  padding-left: 40px;
+}
+.container-padding {
+  padding-left: 0px;
+  margin-left: 39px;
+}
+.card-bg {
+  background-color: #fdfd96;
+  height: 109px;
+}
+.card-body {
+  display: table;
+  text-align: center !important;
+  padding-left: -91px;
+  padding-right: 5rem;
+  margin-left: 50px;
+  padding: 0px;
+}
+.card-head {
+  color: #050754;
+  font-family: Roboto;
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.card-number {
+  display: flex;
+  color: #050754;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.batch-icon {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 48px;
+  left: 64px;
+}
+.batch-fontsize {
+  display: flex;
+  justify-content: center;
+}
+.batch-plus {
+  display: flex;
+  position: relative;
+  left: 5rem;
+  top: 2rem;
+}
+a {
+  color: black;
+}
