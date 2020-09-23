@@ -68,3 +68,13 @@ li {
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  right: 9px;
+  color: black;
+  font-size: 0.7rem;
+  font-family: roboto;
+  font-weight: 500;
+}

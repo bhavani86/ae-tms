@@ -1,4 +1,4 @@
-.batch-padding {
+/* .batch-padding {
   max-width: 86%;
   padding-left: 40px;
 }
@@ -53,4 +53,40 @@
 }
 a {
   color: black;
+} */
+.card-bg {
+  background-color: #fdfd96;
+  margin-bottom: 8px;
+}
+.card-head {
+  color: #050754;
+  font-family: Roboto;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.card-number {
+  color: #050754;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.card-header {
+  padding-left: 1rem;
+}
+.icon-position {
+  display: flex;
+  justify-content: flex-end;
+}
+.img-position {
+  position: relative;
+  bottom: 42px;
+}
+.circle-icon {
+  color: black;
+  display: flex;
+  position: relative;
+  left: 18px;
+  top: 10px;
 }

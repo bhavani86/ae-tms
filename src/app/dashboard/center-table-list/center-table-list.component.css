@@ -1,0 +1,29 @@
+.center-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  border: 1px solid #ececec;
+  height: 60vh;
+}
+.center-list-bg {
+  background-color: lightgray;
+  padding-left: 1rem;
+  color: #050754;
+  font-family: Robot;
+}
+.table thead th {
+  padding-left: 4rem;
+}
+.table tbody td {
+  padding-left: 4rem;
+}
+.scroll {
+  display: grid;
+  overflow: auto;
+}
+.heading-list {
+  font-size: 0.8rem;
+  font-family: Roboto;
+  font-weight: 400;
+}

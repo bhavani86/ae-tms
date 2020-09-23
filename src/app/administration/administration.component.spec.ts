@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CentersTableListComponent } from './centers-table-list.component';
+import { AdministrationComponent } from './administration.component';
 
-describe('CentersTableListComponent', () => {
-  let component: CentersTableListComponent;
-  let fixture: ComponentFixture<CentersTableListComponent>;
+describe('AdministrationComponent', () => {
+  let component: AdministrationComponent;
+  let fixture: ComponentFixture<AdministrationComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CentersTableListComponent ]
+      declarations: [ AdministrationComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CentersTableListComponent);
+    fixture = TestBed.createComponent(AdministrationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
