@@ -27,10 +27,8 @@
   position: relative;
   bottom: 42px;
 }
-.circle-icon {
-  color: black;
-  display: flex;
-  position: relative;
-  left: 18px;
-  top: 10px;
+svg {
+  width: 24px;
+  height: 26px;
+  align-content: center;
 }

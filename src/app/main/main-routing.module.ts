@@ -4,13 +4,19 @@ import { AdministrationComponent } from '../administration/administration.compon
 import { DashboardComponent } from '../dashboard/dashboard.component';
 
 const routes: Routes = [
-  // { path: 'mains', component: MainComponent },
-  // { path: 'mains/dashboard', component: DashboardComponent },
   {
     path: 'dashboard',
     component: DashboardComponent,
     loadChildren: () =>
       import('../dashboard/dashboard.module').then((m) => m.DashboardModule),
+  },
+  {
+    path: 'administartion',
+    component: AdministrationComponent,
+    loadChildren: () =>
+      import('../administration/administration.module').then(
+        (m) => m.AdministrationModule
+      ),
   },
 ];
 
