@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./administration.component.css'],
 })
 export class AdministrationComponent implements OnInit {
-  opened = false;
   constructor() {}
 
   ngOnInit(): void {}
