@@ -11,7 +11,7 @@ const routes: Routes = [
       import('../dashboard/dashboard.module').then((m) => m.DashboardModule),
   },
   {
-    path: 'administartion',
+    path: 'administration',
     component: AdministrationComponent,
     loadChildren: () =>
       import('../administration/administration.module').then(
