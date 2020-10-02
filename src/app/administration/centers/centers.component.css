@@ -1,0 +1,54 @@
+.header {
+  width: 100vw;
+}
+.admin-text {
+  margin-top: 0.4rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.7rem;
+  font-family: Rubik, sans-serif;
+  color: #181818;
+  float: left;
+  padding-left: 2rem;
+}
+.search-bar {
+  float: right;
+  position: relative;
+  font-size: 0.7rem;
+  outline: 0;
+  text-decoration: none;
+  padding-right: 86px;
+  padding-top: 11px;
+}
+.search-text {
+  padding: 0.2rem;
+  font-size: 0.7rem;
+  font-family: Lato, sans-serif;
+  color: #181818;
+  outline: 0;
+}
+.dashed-line {
+  border: 0.5px solid #ececec;
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.table-content {
+  margin-top: 0.5rem;
+  height: 93%;
+}
+.table-border,
+.table-border td,
+.table-border th {
+  border: 1px solid #dee2e6;
+}
+.table {
+  margin-bottom: 1rem;
+  color: #212529;
+  background-color: white;
+}
+.table-head {
+  font-family: Rubik, sans-serif;
+  background-color: #f5fbff;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}

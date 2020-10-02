@@ -1,0 +1,272 @@
+.header {
+  width: 100%;
+}
+.admin-text {
+  margin-top: 0.4rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.7rem;
+  font-family: Rubik, sans-serif;
+  color: #181818;
+  float: left;
+  padding-left: 2rem;
+}
+.dashed-line {
+  border: 0.5px solid #ececec;
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+h3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.center-body {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-top: 1.5rem;
+  display: grid;
+}
+.main-center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(13, -webkit-min-content);
+  grid-template-rows: repeat(13, min-content);
+  align-items: center;
+}
+.student-block {
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  display: grid;
+}
+.center-text {
+  font-family: Rubik, sans-serif;
+  font-size: 0.7rem;
+  padding-bottom: 0.5rem;
+  color: #8b8b8b;
+}
+.center-form {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  outline: 0;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  box-shadow: none;
+}
+.Batch-block {
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.student-line {
+  display: grid;
+  grid-row: 3/4;
+  grid-column: 1/4;
+  width: 100%;
+  border-top: 1px dashed #c4c4c4;
+}
+.bulk-text {
+  display: grid;
+  grid-row: 4/5;
+  grid-column: 1/2;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.body-block {
+  display: grid;
+  grid-row: 5/5;
+  grid-column: 1/2;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+.student-line2 {
+  display: grid;
+  grid-row: 6/7;
+  grid-column: 1/4;
+  width: 100%;
+  border-top: 1px dashed #c4c4c4;
+}
+.singleadmin-block {
+  display: grid;
+  grid-row: 6/7;
+  grid-column: 1/2;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+.singleadmin-block-student {
+  display: grid;
+  grid-row: 7/8;
+  grid-column: 1/2;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-Roolno {
+  display: grid;
+  grid-row: 7/8;
+  grid-column: 2/3;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-adharno {
+  display: grid;
+  grid-row: 7/8;
+  grid-column: 3/4;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-village {
+  display: grid;
+  grid-row: 8/9;
+  grid-column: 1/2;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-taluka {
+  display: grid;
+  grid-row: 8/9;
+  grid-column: 2/3;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-district {
+  display: grid;
+  grid-row: 8/9;
+  grid-column: 3/4;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-bloodgroup {
+  display: grid;
+  grid-row: 9/10;
+  grid-column: 1/2;
+  margin-bottom: 4rem;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.student-line3 {
+  display: grid;
+  grid-row: 9/10;
+  grid-column: 1/4;
+  margin-top: 3rem;
+  border-top: 1px dashed #c4c4c4;
+}
+.contact-detail {
+  display: grid;
+  grid-row: 9/10;
+  grid-column: 1/2;
+  margin-top: 5rem;
+  padding-left: 1rem;
+}
+.singleadmin-block-mobileno {
+  display: grid;
+  grid-row: 10/11;
+  grid-column: 1/2;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-emergencyname {
+  display: grid;
+  grid-row: 10/11;
+  grid-column: 2/3;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-emergencyno {
+  display: grid;
+  grid-row: 10/11;
+  grid-column: 3/4;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.singleadmin-block-relation {
+  display: grid;
+  grid-row: 11/12;
+  grid-column: 1/2;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.student-line4 {
+  display: grid;
+  grid-row: 12/13;
+  grid-column: 1/4;
+  width: 100%;
+  border-top: 1px dashed #c4c4c4;
+}
+.qualification-detail {
+  display: grid;
+  grid-row: 12/13;
+  grid-column: 1/2;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.education {
+  display: grid;
+  grid-row: 13/14;
+  grid-column: 1/2;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.radio-buttons {
+  display: grid;
+  grid-row: 13/14;
+  grid-column: 2/3;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.radio-inline {
+  padding-left: 1rem;
+}
+.student-button {
+  width: 50%;
+  display: grid;
+  justify-self: center;
+  grid-row: 14/15;
+  grid-column: 2/3;
+  margin: 3rem;
+  padding: 0.5rem;
+  font-family: Rubik, sans-serif;
+  font-size: 0.8rem;
+  border: none;
+  background-color: #059b32;
+  color: white;
+}
+.submit-button {
+  width: 50%;
+  display: grid;
+  justify-self: center;
+  grid-row: 11/12;
+  grid-column: 2/3;
+  margin: 3rem;
+  padding: 0.5rem;
+  font-family: Rubik, sans-serif;
+  font-size: 0.8rem;
+  border: none;
+  background-color: #059b32;
+  color: white;
+}

@@ -8,6 +8,12 @@ import { MainModule } from './main/main.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { MainRoutingModule } from './main/main-routing.module';
 import { AdministrationModule } from './administration/administration.module';
+import { StudentsModule } from './students/students.module';
+import { TrainerModule } from './trainers/trainer.module';
+import { AttendanceModule } from './attendance/attendance.module';
+import { ExamModule } from './exams/exam.module';
+import { AcademicModule } from './academics/academic.module';
+import { AssignmentModule } from './assignments/assignment.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,6 +25,12 @@ import { AdministrationModule } from './administration/administration.module';
     DashboardModule,
     MainRoutingModule,
     AdministrationModule,
+    StudentsModule,
+    TrainerModule,
+    AttendanceModule,
+    ExamModule,
+    AcademicModule,
+    AssignmentModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -36,6 +36,9 @@
 .main-display {
   display: block;
 }
+.bg-light {
+  background-color: var(--white) !important;
+}
 li {
   display: flex;
   flex: 1;
@@ -76,7 +79,7 @@ li {
   display: flex;
   position: absolute;
   bottom: 0px;
-  right: 9px;
+  right: 2rem;
   color: black;
   font-size: 0.7rem;
   font-family: roboto;

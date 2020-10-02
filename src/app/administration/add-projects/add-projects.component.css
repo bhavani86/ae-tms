@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+}
+.admin-text {
+  margin-top: 0.4rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.7rem;
+  font-family: Rubik, sans-serif;
+  color: #181818;
+  float: left;
+  padding-left: 2rem;
+}
+.dashed-line {
+  border: 0.5px solid #ececec;
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+h3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.center-body {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-top: 1.5rem;
+  display: grid;
+}
+.main-center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(13, -webkit-min-content);
+  grid-template-rows: repeat(13, min-content);
+  align-items: center;
+}
+.center-block {
+  padding: 0.8rem 1rem;
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+.center-text {
+  font-family: Rubik, sans-serif;
+  font-size: 0.7rem;
+  padding-bottom: 0.5rem;
+  color: #8b8b8b;
+}
+.center-form {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  outline: 0;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  box-shadow: none;
+}
+.submit-button {
+  width: 50%;
+  display: grid;
+  justify-self: center;
+  grid-row: 11/12;
+  grid-column: 2/3;
+  margin: 3rem;
+  padding: 0.5rem;
+  font-family: Rubik, sans-serif;
+  font-size: 0.8rem;
+  border: none;
+  background-color: #059b32;
+  color: white;
+}
